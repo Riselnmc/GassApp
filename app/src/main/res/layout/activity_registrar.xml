@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/volver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_Volver"
+                    android:textSize="24sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_Registrate"
+                    android:textColor="#000"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtNombres"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:autofillHints=""
+                android:hint="@string/txt_Nombres"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/problemaNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0000"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/txtApellidos"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:autofillHints=""
+                android:hint="@string/txt_Apellidos"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/problemaApellido"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0000"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/txtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:autofillHints=""
+                android:hint="@string/txt_Correo"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/problemaCorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0000"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:autofillHints=""
+                android:hint="@string/txt_Pass"
+                android:inputType="textPassword"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/problemaPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0000"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/txtPasswordConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:autofillHints=""
+                android:hint="@string/txt_PassConfirm"
+                android:inputType="textPassword"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/problemaPassC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0000"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/txtTel"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:autofillHints=""
+                android:hint="@string/txt_Tel"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/problemaTele"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0000"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10sp"
+                android:background="#03A9F4"
+                android:text="@string/btn_Registrarme"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
