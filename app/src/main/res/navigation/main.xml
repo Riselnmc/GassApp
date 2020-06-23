@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/mapa">
+
+    <fragment
+        android:id="@+id/mapa"
+        android:name="com.example.proyectogassapp.HomeFragment"
+        android:label="Mapa"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/tarjetas"
+        android:name="com.example.proyectogassapp.TarjetasActivity"
+        tools:layout="@layout/activity_tarjetas" />
+    <activity
+        android:id="@+id/perfil"
+        android:name="com.example.proyectogassapp.PerfilActivity"
+        tools:layout="@layout/activity_perfil" />
+</navigation>
